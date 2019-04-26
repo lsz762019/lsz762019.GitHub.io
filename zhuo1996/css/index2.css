@@ -1,0 +1,174 @@
+body{
+	overflow-x:hidden;
+	background: url(../images/qingxin4.jpg);
+}
+#index{
+	width: 100%;
+	height: 1200px;
+	font-family: zhuo;
+	position: absolute;
+	background: url(../images/qingxin4.jpg);
+}
+@font-face { font-family: 'zhuo'; src: url('../font/zhuo.eot'); /* IE9 Compat Modes */ src: url('../font/zhuo.eot?#iefix') format('embedded-opentype'), url('../font/zhuo.woff') format('woff'), url('../font/zhuo.ttf') format('truetype'), url('../font/zhuo.svg#font/zhuo') format('svg');
+}
+#cof{
+	position: absolute;
+}
+#index .aestheticism{
+	width: 100%;
+	/*height: 3%;*/
+	background: url(../images/qingxin4.jpg);
+	font-size: 25px;
+	text-align: center;
+	position: absolute;
+}
+#index .all{
+	width: 100%;
+	height: 1100px;
+	position: relative;
+}
+/*左侧导航栏*/
+#index .left_nav{
+	width: 30%;
+	height: 420px;
+	margin-top: 3%;
+}
+#index .left_nav ul{
+	width: 100%;
+	height: 240px;
+}
+#index .left_nav ul li{
+	width: 100%;
+	height: 60px;
+	margin-top: 35px;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+	margin-left: -50px;
+	transition:all 0.5s linear 0s;
+	cursor: pointer;
+	animation:bounceInDown 1s ease 0s 1;
+}
+#index .left_nav ul li:hover{
+	margin-left: 0px;
+}
+#index .left_nav ul li:nth-child(1){
+	background-color: #FC649B;
+}
+#index .left_nav ul li:nth-child(2){
+	background-color: #79E8FF;
+}
+#index .left_nav ul li:nth-child(3){
+	background-color: #79FFD1;
+}
+#index .left_nav ul li:nth-child(4){
+	background-color: #F2EA89;
+}
+/*右侧咖啡*/
+#index .coffee{
+	width: 40%;
+	position: relative;
+	margin-left: 45%;
+	margin-top: -100px;
+	cursor: pointer;
+	transition:all 1s linear 0s;
+	animation:bounceInLeft 1s ease 0s 1;
+}
+#index .coffee::before{
+	content: "Have a cup of afternoon tea";
+	position: absolute;
+	font-size: 45px;
+	color: #fff;
+	width: 100%;
+	background: #000;
+	text-align: center;
+	line-height: 450px;
+	height: 100%;
+	opacity: 0;
+	transition:all 1s linear 0s;
+}
+#index .coffee:hover::before{
+	opacity: 0.8;
+}
+#index .coffee img{
+	width: 100%;
+}
+/*右侧咖啡结束*/
+#index .inde2_next{
+	width: 100%;
+	height: 850px;
+	position: relative;
+}
+#index .inde2_next .two_img{
+	width: 45%;
+	height: 550px;
+	margin-left: 45%;
+	margin-top: 5%;
+	position: relative;
+	border: 10px solid black;
+	overflow: hidden;
+	transition:all 1s ease 0s;
+}
+#index .inde2_next .two_img:hover{
+	border: 10px solid gold;
+}
+#index .inde2_next .two_img:hover .run{
+	transform:translateX(0px);
+}
+#index .inde2_next img{
+	width: 100%;
+	height: 550px;
+	position: absolute;
+	transition:all 1s ease 0s;
+}
+#index .inde2_next img:nth-child(2){
+	transform:translateX(950px);
+}
+#index .inde2_next .centets .centet{
+	position: relative;
+	border: 10px solid;
+	width: 40%;
+	height: 400px;
+	float: left;
+	margin-top: -500px;
+	font-size: 45px;
+	text-align: center;
+	line-height: 90px;
+}
+#index .over_index2{
+	width: 80%;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+	border: 5px solid;
+	margin-top: -5%;
+	background: url(../images/qingxin1.jpg) no-repeat;
+	transition:all 1s ease 0s;
+}
+#index .over_index2::before{
+	content: "Cheer for your dreams";
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	top: 0;
+	color: black;
+	font-size: 45px;
+	line-height: 250px;
+	background: orange;
+	opacity: 0;
+	transition:all 1s ease 0s;
+}
+#index .over_index2:hover::before{
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	transition:all 1s ease 0s;
+}
+.gg{
+	width: 100%;
+	height: 200px;
+	border:2px solid transparent;
+	position: relative; 
+}
